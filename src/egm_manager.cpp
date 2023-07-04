@@ -77,7 +77,7 @@ missed_messages_{MISSED_MESSAGES_THRESHOLD}
 {
   egm::BaseConfiguration interface_cfg{};
   interface_cfg.use_velocity_outputs = true;
-  interface_cfg.use_logging = true;
+  interface_cfg.use_logging = false;
   interface_cfg.p_new_message_cv = p_new_message_cv;
 
   // Check for special cases (six axes robot is used by default).
